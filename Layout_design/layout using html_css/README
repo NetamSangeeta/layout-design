@@ -1,0 +1,47 @@
+//DOCUMENT DESCRIPTION
+                                        //WEB LAYOUT using HTML5 & CSS3//
+
+
+1> WRAP :   * It used to group together related elements for semantic purposes/styling.
+            * margin:auto; //center aligned all div/page/section/content    
+
+2> WEB LAYOUT ELEMENTS :
+
+    * HEADER : header for a document
+         
+    * NAVIGATION :  set of navigation links
+
+    * CONTENT (like sidebar)
+        * SECTION : section in a document
+        * ARTICLE : self-contained content
+
+    * ASIDE : Defines content aside from the content (like sidebar)
+
+    * FOOTER : footer for a document
+
+3> In Parent section->
+    --> for parent - use clearfix property
+
+        --> clearfix
+           * To bring the height back
+             we need to use clearfix class in main-div(parent)
+
+           * we should have to clear both float affect on the parent-
+             use clear: both
+
+           * (.clearfix::after) -> used pseudo class:
+                    used to add styles to selectors,
+                    but, only when those selectors meet certain conditions.
+                    A pseudo class is expressed by adding a colon (:)
+                    eg-"hover", "focus", "active"
+
+    --> inspect-> settings-> more tools -> developers tool ->elements 
+                        main-div(parent) height will check. 
+                         (& to bring the height the back in Parent )
+
+       
+4> Child section -->
+         -> for child use "float" property
+         -> we need to remove hight from main-div(parent) so, child can float both left and right side 
+         -> when the elements float, there is no content in the parent : then height will be "0"
+                   (-> to bring the height the back , we need to use clearfix class in parent )

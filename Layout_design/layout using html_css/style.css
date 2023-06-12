@@ -1,0 +1,111 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* background-color: rgb(145, 212, 77); */
+}
+#logo-div{
+    margin-top: 10px;
+    width: 100%; 
+    min-height: 50px;   
+    background-color:  rgb(122, 71, 156);
+    padding-left: 2%;
+    line-height: 50px;
+    margin-bottom: 5px;
+}
+#nav-div{    
+    width: 100%; 
+    min-height: 40px;
+    background-color:  rgb(146, 186, 221);
+    line-height: 40px; 
+    text-align: center;
+    margin-bottom: 6px; 
+}
+#section-div{
+    width: 100%;
+    min-height: 90px;
+    background-color:  rgb(146, 221, 192);
+    text-align: center;
+    line-height: 20px;
+    margin-bottom: 8px; 
+    padding: 30px;
+}
+/* //parent main-div */
+#main-div{
+    width: 100%;
+    /* min-height: 400px; */
+    /* background-color: rgb(62, 199, 73); */
+    margin-bottom: 8px; 
+}
+/* //child of main-div */
+#main-div-sidebar{
+    width:20%;
+    min-height: 400px;
+    background-color:  rgb(173, 228, 46);
+    float: left;
+    text-align: center;
+    line-height: 30px;
+    padding: 30px;
+}
+ul {  
+    list-style-type: none;  
+    /* font-weight: bold;  
+    font-size: 10px;   */
+} 
+#main-div-aside{
+    width: 75%;
+    min-height: 400px;
+    background-color:  rgb(250, 137, 32);
+    float: right;  
+    text-align: left;
+    line-height: 27px;  
+    padding: 30px;
+}
+.clearfix::after{
+    content:"";
+    display: block;
+    clear: both;
+}
+#textarea-section{
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(125, 112, 201);
+    line-height: 50px;
+    text-align: center;
+    margin-bottom: 6px;
+}
+/* //parent box-section */
+#box-section{
+    width: 100%;
+    min-height: 50px;
+    /* background-color: rgb(223, 96, 58); */
+    margin-bottom: 6px;
+}
+/* //child of box-section */
+#box-section .textarea-box{
+    width: 30%;
+    min-height: 300px;
+    background-color: rgb(52, 125, 189);
+    float: left;
+    padding: 30px;
+    line-height: 20px;
+    text-align: left;
+}
+#box-section .textarea-box:nth-child(2){
+    margin-left: 5%;
+    margin-right: 5%;    
+}
+#footer-div{
+    margin-bottom: 10px;
+    width: 100%;
+    min-height: 50px;
+    background-color: rgb(207, 61, 134);
+    text-align: center;
+    line-height: 20px;
+}
+#wrap{
+    width: 95%;
+    margin: auto;
+    /* background-color: rgb(209, 41, 29);  */   
+}
